@@ -84,6 +84,7 @@ namespace Task6_2
                     finally
                     {
                         sr?.Dispose();
+                        sw?.Dispose();
                     }
                 }
             }
